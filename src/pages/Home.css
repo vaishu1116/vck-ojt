@@ -1,0 +1,89 @@
+#main{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+.full{
+    background-color: aqua;
+}
+.container{
+    background-color: azure;
+    margin: 30px;
+    height: 400px;
+    overflow-y: scroll;
+    width: 1100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    
+}
+
+.header{
+    background-color: rgb(0, 128, 255);
+    text-align: right;
+    height: 70px;
+}
+button{
+    background-color: rgb(37, 201, 37);
+    align-self: center;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+.ready{
+    text-align: center;
+}
+.nav{
+    margin: 10px;
+    color: bisque;
+    margin-top: 10px;
+}
+.section{
+    height: 350px;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    filter: brightness(60%);
+}
+
+.btn{
+    background-color: #28a745;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 12px 30px;
+}
+.btn2{
+     background-color: #28a745;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 12px 30px;
+}
+.video{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img{
+    
+    width: 50%;
+    height: 300px; 
+   
+}
+.img2{
+     width: 50%;
+     height: 300px;
+}
+h1{
+    text-align: center;
+}
+.head{
+   text-align:center;
+}
+
+
+
+
