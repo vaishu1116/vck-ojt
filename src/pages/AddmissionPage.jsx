@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Header/Header";
-
+import './Footer.css';
+import Footer from "../components/Footer/Footer";
 const AddmissionPage = () => {
     return(
         <div class="full">
@@ -48,7 +49,7 @@ const AddmissionPage = () => {
             </ol>
             <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Courses page or Contact us directly.</p>
             </div>
-
+          <Footer />
         </div>
     )
 }
