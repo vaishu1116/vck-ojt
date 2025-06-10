@@ -3,6 +3,9 @@
     text-align: center;
     margin-top: 30px;
 }
+body{
+    background-color: aqua;
+}
 .full{
     background-color: aqua;
 }
@@ -11,14 +14,41 @@
     margin: 30px;
     height: 400px;
     overflow-y: scroll;
-    width: 1100px;
-    margin-left: 80px;
+    overflow-x: hidden;
+    width: 1060px;
+    margin-left: 100px;
     margin-right: 80px;
+    margin-bottom: 100px;
     
 }
-.head{
-    background-image: url(public\images\college-banner-Cz0xylpt.png);
+.list{
+    padding: 20px;
+    margin-top: 0%;
 }
+.back{
+    padding: 20px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+}
+.head{
+    background-image: url(/images/banner.jpeg);
+    color: white;
+    height: 80%;
+    width: 100%;
+    background-size: contain;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    align-items: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+.head h1{
+    margin-right: 150px;
+}
+
 .header{
     background-color: rgb(0, 128, 255);
     text-align: right;
@@ -32,7 +62,12 @@ button{
 }
 .ready{
     text-align: center;
+    margin-right: 100px;
 }
+#btn{
+    margin-right: 100px;
+}
+
 .nav{
     margin: 10px;
     color: bisque;
@@ -65,6 +100,7 @@ button{
 }
 #last-btn{
     text-align: center;
+    margin-bottom: 50px;
 }
 .video{
     display: block;
@@ -89,6 +125,14 @@ h1{
    text-align:center;
 }
 
-
-
-
+.text{
+    margin-top: 120px;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 0%;
+    margin-left: 20px;
+}
+.ready2{
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,17 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    margin-right: 500px;
+}
+Link{
+    padding: 20px;
+}
+.btn{
+    margin-left: 20px;
+    font-size: medium;
+    padding: 8px 20px;
+}

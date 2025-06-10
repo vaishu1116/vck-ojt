@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
-
+import Footer from "../components/Footer/Footer";
 const AboutPage = () => {
     return(
         <div class="full">
@@ -55,6 +55,7 @@ const AboutPage = () => {
             <h2>Our History</h2>
             <p>[Briefly describe the college's history - e.g., how it started, key milestones, growth over the years, famous alumni if any]. Our journey began with a vision to make quality education available to all, and we continue that legacy today.</p>
             </div>
+        <Footer />
         </div>
     )
 }
