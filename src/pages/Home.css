@@ -62,7 +62,7 @@ button{
 }
 .ready{
     text-align: center;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 #btn{
     margin-right: 100px;
@@ -135,4 +135,15 @@ h1{
 .ready2{
     text-align: center;
     padding: 10px;
+}
+#butn{
+    background-color: #28a745;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+}
+.button{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
