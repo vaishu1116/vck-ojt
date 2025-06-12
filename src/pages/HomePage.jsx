@@ -4,6 +4,7 @@ import Footer from "../components/Footer/Footer";
 import './Home.css'
 const HomePage = () => {
     return (
+        <>
         <div class="full">
             <Header />
             <div class="container">
@@ -39,8 +40,10 @@ const HomePage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            
         </div>
+         <Footer />
+        </>
     )
 }
 export default HomePage

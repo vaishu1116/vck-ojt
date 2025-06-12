@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 const AddmissionPage = () => {
     return(
+        <>
         <div class="full">
             <Header/>
             <div class="container">
@@ -48,8 +49,10 @@ const AddmissionPage = () => {
             </ol>
             <p>For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Courses page or Contact us directly.</p>
             </div>
-            <Footer />
+            
         </div>
+        <Footer />
+        </>
     )
 }
 export default AddmissionPage

@@ -3,6 +3,7 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 const ContactPage = () => {
     return(
+        <>
         <div class="full">
             <Header/>
             <div class="container">
@@ -33,8 +34,10 @@ India</p>   <br></br>
             <h2>Send Us a Message</h2>
             <p>[A contact form with fields for Name, Email, Subject, Message can be added here.]</p>
             </div>
-        <Footer />
+        
         </div>
+        <Footer />
+        </>
     )
 }
 export default ContactPage
